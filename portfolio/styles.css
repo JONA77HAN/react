@@ -1,0 +1,7 @@
+#skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skill-item {
+    margin-bottom: 10px;
+}
