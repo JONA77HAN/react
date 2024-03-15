@@ -1,5 +1,5 @@
   // Datos de ejemplo: tus habilidades
-  const skills = ['JavaScript', 'HTML', 'CSS', 'React', 'Node.js', 'MongoDB', 'Express.js'];
+  const skills = ['HTML', 'CSS','JavaScript', 'Angular', 'Python', 'MongoDB', 'Express.js'];
 
   // Función para mostrar las habilidades en la página
   function mostrarHabilidades() {
