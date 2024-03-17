@@ -12,7 +12,7 @@ header, footer {
 }
 
 main {
-    padding: 2rem;
+    padding: 10px;
     text-align: center;
 }
 
@@ -28,4 +28,21 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+.responsive-img {
+    max-width: 75%;
+    height: auto;
+}
+
+@media screen and (min-width: 210px) {
+    .responsive-img {
+        max-width: 50%; /* Establecer el tamaño mediano en pantallas grandes */
+    }
+}
+#skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+.skill-item {
+    margin-bottom: 10px;
 }
