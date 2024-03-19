@@ -19,7 +19,7 @@ function getRandomColor() {
   function mostrarHabilidades() {
       const skillsList = document.getElementById('skills-list');
       // Limpiar lista antes de agregar nuevas habilidades
-      skillsList.innerHTML = '';
+      skillsList.innerHTML = 'index.html';
 
       // Iterar sobre las habilidades y crear elementos de lista
       skills.forEach(skill => {
